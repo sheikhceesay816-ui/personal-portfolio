@@ -1,0 +1,70 @@
+
+/*  the css  reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    color: #1f1f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+header{
+    background-color: aqua;
+    padding: 30px;
+}
+h1{
+    color:beige;
+    text-align: center;
+
+}
+h2{
+    color: #863d3d;
+    border-bottom: 2px solid #863d3d;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+p{
+    margin: 20px 0;
+}
+/* the horizontal nav */
+nav{
+    background-color: #1f1f1f;
+    padding: 12px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    gap: 10px;
+}
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: inline-block
+}
+/*  center page */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.faforite{
+    background-color: #094385;
+    font-weight:bold;
+    padding: 15px;
+   border-left: 5px solid #1f1f1f;
+}
+footer{
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+   
+}
